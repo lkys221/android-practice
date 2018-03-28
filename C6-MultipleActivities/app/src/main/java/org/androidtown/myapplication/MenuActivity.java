@@ -16,6 +16,6 @@ public class MenuActivity extends AppCompatActivity {
         String username = intent.getStringExtra("Username");
         String password = intent.getStringExtra("Password");
 
-        Toast.makeText(getApplicationContext(), "Username: "  + username + " Password: " + password, Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Username: "  + username + " Password: " + password + "\n Code: " +  , Toast.LENGTH_LONG).show();
     }
 }
